@@ -1,0 +1,6 @@
+carteira = int(input('Quanto dinheiro você tem na carteira? R$ '))
+print(f'Você tem R${carteira}')
+print(f'Isso convertido para dolar é {carteira*5.04}')
+print(f'Isso convertido para euro é {carteira*5.85}')
+print(f'Isso convertido para wons é {carteira*0.0038}')
+print(f'Isso convertido para ienes é {carteira*0.032}')
