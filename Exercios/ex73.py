@@ -1,0 +1,17 @@
+time = ('Novorizontino', 'Juventude', 'Vila Nova', 'Criciúma', 'Fortaleza', 'CRB', 'Goiás',
+        'Sport Recife', 'Atlético-GO', 'São Bernardo', 'Operário', 'Botafogo SP', 'Cuiabá',
+        'Athletic', 'Náutico', 'Ceará SC', 'Avaí', 'Londrina', 'América-MG', 'Ponte Preta')
+print('-=' * 30)
+print('Times da serie B: ')
+print(time)
+print('-=' * 30)
+print('Primeiros 5 colocados: ')
+print(time[:5])
+print('-=' * 30)
+print('Os 4 ultimos colocados: ')
+print(time[-4:])
+print('-=' * 30)
+print('Times em ordem alfabetica: ')
+print(sorted(time))
+print('-=' * 30)
+print(f'O Fortaleza está na {time.index("Fortaleza")} posição')
